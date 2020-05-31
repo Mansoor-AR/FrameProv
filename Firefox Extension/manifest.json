@@ -1,0 +1,18 @@
+{
+
+  "description": "Borders the Window red when validation fails",
+  "manifest_version": 2,
+  "name": "frameprov_validator",
+  "version": "1.0",
+  "homepage_url": "https://github.com/Mansoor-AR/FrameProv",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["borderify.js"]
+    }
+  ]
+
+}
